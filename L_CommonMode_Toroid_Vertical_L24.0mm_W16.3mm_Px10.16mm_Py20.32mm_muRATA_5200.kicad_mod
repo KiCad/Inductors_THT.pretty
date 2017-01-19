@@ -1,10 +1,10 @@
-(module L_CommonModeChoke_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_muRATA_5200series (layer F.Cu) (tedit 5880B84E)
-  (descr "L_CommonModeChoke_Toroid, Vertical series, Radial, pin pitch=10.16*20.32mm^2, , length*width=24*16.3mm^2, muRATA, 5200series, http://www.murata-ps.com/data/magnetics/kmp_5200.pdf")
-  (tags "L_CommonModeChoke_Toroid Vertical series Radial pin pitch 10.16*20.32mm^2  length 24mm width 16.3mm muRATA 5200series")
+(module L_CommonMode_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_muRATA_5200 (layer F.Cu) (tedit 5880B84E)
+  (descr "L_CommonMode_Toroid, Vertical series, Radial, pin pitch=10.16*20.32mm^2, , length*width=24*16.3mm^2, muRATA, 5200, http://www.murata-ps.com/data/magnetics/kmp_5200.pdf")
+  (tags "L_CommonMode_Toroid Vertical series Radial pin pitch 10.16*20.32mm^2  length 24mm width 16.3mm muRATA 5200")
   (fp_text reference REF** (at 10.16 -4.38) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value L_CommonModeChoke_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_muRATA_5200series (at 10.16 14.54) (layer F.Fab)
+  (fp_text value L_CommonMode_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_muRATA_5200 (at 10.16 14.54) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.84 -3.07) (end -1.84 13.23) (layer F.Fab) (width 0.1))
@@ -37,7 +37,7 @@
   (pad 4 thru_hole circle (at 20.32 0) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 20.32 10.16) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 10.16) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask))
-  (model Inductors_THT.3dshapes/L_CommonModeChoke_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_muRATA_5200series.wrl
+  (model Inductors_THT.3dshapes/L_CommonMode_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_muRATA_5200.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))

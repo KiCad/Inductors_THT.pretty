@@ -1,10 +1,10 @@
-(module L_Toroid_Horizontal_D24.1mm_P23.10mm_Bourns_2200series (layer F.Cu) (tedit 5880B84D)
-  (descr "L_Toroid, Horizontal series, Radial, pin pitch=23.10mm, , diameter=24.1mm, Bourns, 2200series, http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3")
-  (tags "L_Toroid Horizontal series Radial pin pitch 23.10mm  diameter 24.1mm Bourns 2200series")
+(module L_Toroid_Horizontal_D24.1mm_P23.10mm_Bourns_2200 (layer F.Cu) (tedit 5880B84D)
+  (descr "L_Toroid, Horizontal series, Radial, pin pitch=23.10mm, , diameter=24.1mm, Bourns, 2200, http://www.bourns.com/docs/Product-Datasheets/2100_series.pdf?sfvrsn=3")
+  (tags "L_Toroid Horizontal series Radial pin pitch 23.10mm  diameter 24.1mm Bourns 2200")
   (fp_text reference REF** (at 11.55 -13.36) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value L_Toroid_Horizontal_D24.1mm_P23.10mm_Bourns_2200series (at 11.55 13.36) (layer F.Fab)
+  (fp_text value L_Toroid_Horizontal_D24.1mm_P23.10mm_Bourns_2200 (at 11.55 13.36) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 11.55 0) (end 23.6 0) (layer F.Fab) (width 0.1))
@@ -30,7 +30,7 @@
   (fp_line (start 25.15 -12.4) (end -2.1 -12.4) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole circle (at 0 0) (size 3.6 3.6) (drill 1.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 23.1 0) (size 3.6 3.6) (drill 1.8) (layers *.Cu *.Mask))
-  (model Inductors_THT.3dshapes/L_Toroid_Horizontal_D24.1mm_P23.10mm_Bourns_2200series.wrl
+  (model Inductors_THT.3dshapes/L_Toroid_Horizontal_D24.1mm_P23.10mm_Bourns_2200.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))
